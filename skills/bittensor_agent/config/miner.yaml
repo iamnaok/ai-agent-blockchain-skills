@@ -1,0 +1,22 @@
+wallet:
+  name: agent_owner
+  hotkey: miner_01
+
+subnet:
+  netuid: 56
+  network: finney
+
+agent:
+  max_tokens: 2048
+  temperature: 0.7
+  memory_enabled: true
+  response_timeout: 30
+
+logging:
+  level: INFO
+  file: logs/miner.log
+  console: true
+
+performance:
+  sync_interval: 12
+  log_metrics: true

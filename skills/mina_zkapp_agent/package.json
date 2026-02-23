@@ -1,0 +1,35 @@
+{
+  "name": "mina-zkapp-agent",
+  "version": "1.0.0",
+  "description": "ZK-verified AI agent for Mina Protocol",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "deploy": "zk deploy",
+    "prove": "node scripts/test-proof.js"
+  },
+  "keywords": [
+    "mina",
+    "zk",
+    "ai",
+    "agent",
+    "blockchain"
+  ],
+  "author": "AgentZero",
+  "license": "MIT",
+  "dependencies": {
+    "o1js": "^0.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@jest/globals": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
