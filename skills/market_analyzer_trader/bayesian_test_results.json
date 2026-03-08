@@ -1,0 +1,113 @@
+{
+  "best_params": {
+    "kelly_fraction": 0.2608862067588036,
+    "entry_threshold": 1.0,
+    "stop_loss": 0.3,
+    "take_profit": 2.0
+  },
+  "best_sharpe": 1.125603030616722,
+  "n_iterations": 10,
+  "n_observations": 10,
+  "observations": [
+    {
+      "params": {
+        "kelly_fraction": 0.29584902630145415,
+        "entry_threshold": 2.9963248013938633,
+        "stop_loss": 0.5561777013727354,
+        "take_profit": 1.556631527394094
+      },
+      "sharpe": 0.24693598774649816,
+      "iteration": 0
+    },
+    {
+      "params": {
+        "kelly_fraction": 0.12582616479243744,
+        "entry_threshold": 2.780833138190406,
+        "stop_loss": 0.4574553458179841,
+        "take_profit": 1.9702603425084748
+      },
+      "sharpe": 0.3273595443905779,
+      "iteration": 1
+    },
+    {
+      "params": {
+        "kelly_fraction": 0.4745692799895944,
+        "entry_threshold": 2.883851713751972,
+        "stop_loss": 0.46786879457331576,
+        "take_profit": 1.4114519424222256
+      },
+      "sharpe": 0.18639914806907915,
+      "iteration": 2
+    },
+    {
+      "params": {
+        "kelly_fraction": 0.1,
+        "entry_threshold": 1.0,
+        "stop_loss": 0.3,
+        "take_profit": 1.0
+      },
+      "sharpe": 0.5956443090934752,
+      "iteration": 3
+    },
+    {
+      "params": {
+        "kelly_fraction": 0.1,
+        "entry_threshold": 1.0,
+        "stop_loss": 0.6,
+        "take_profit": 1.0
+      },
+      "sharpe": 0.7562878476926953,
+      "iteration": 4
+    },
+    {
+      "params": {
+        "kelly_fraction": 0.1,
+        "entry_threshold": 1.0,
+        "stop_loss": 0.6,
+        "take_profit": 1.979066374673204
+      },
+      "sharpe": 0.8055695330440276,
+      "iteration": 5
+    },
+    {
+      "params": {
+        "kelly_fraction": 0.4277927905673149,
+        "entry_threshold": 1.0,
+        "stop_loss": 0.6,
+        "take_profit": 1.661790842627485
+      },
+      "sharpe": 0.6647472772230735,
+      "iteration": 6
+    },
+    {
+      "params": {
+        "kelly_fraction": 0.2608862067588036,
+        "entry_threshold": 1.0,
+        "stop_loss": 0.3,
+        "take_profit": 2.0
+      },
+      "sharpe": 1.125603030616722,
+      "iteration": 7
+    },
+    {
+      "params": {
+        "kelly_fraction": 0.5,
+        "entry_threshold": 1.0,
+        "stop_loss": 0.3,
+        "take_profit": 2.0
+      },
+      "sharpe": 0.6556099806560359,
+      "iteration": 8
+    },
+    {
+      "params": {
+        "kelly_fraction": 0.1,
+        "entry_threshold": 1.0,
+        "stop_loss": 0.3,
+        "take_profit": 2.0
+      },
+      "sharpe": 0.7440512867849128,
+      "iteration": 9
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from modules.market_analyzer import MarketAnalyzer; ma = MarketAnalyzer(); ma.scan_markets()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/a0/usr/workdir/ai-agent-blockchain-skills/skills/market_analyzer_trader/modules/market_analyzer.py", line 138
+    logger.info(f"
+                ^
+SyntaxError: unterminated f-string literal (detected at line 138)
+2026-03-08 14:04:48,521 - INFO - Loaded 0 historical signals
+2026-03-08 14:04:48,521 - INFO - MarketAnalyzer initialized with assets: ['ETH-USDC', 'BTC-USDC']
+2026-03-08 14:04:48,521 - INFO - ============================================================
+2026-03-08 14:04:48,521 - INFO - Starting market scan at 2026-03-08 14:04:48.521758
+2026-03-08 14:04:48,521 - INFO - ============================================================
+2026-03-08 14:04:48,521 - ERROR - Failed to check pending signals: 'SignalOutcomeTracker' object has no attribute 'get_pending_signals'
+2026-03-08 14:04:48,522 - INFO - --- Scanning ETH-USDC ---
+2026-03-08 14:04:48,521 - INFO - Loaded 0 historical signals
+2026-03-08 14:04:48,521 - INFO - MarketAnalyzer initialized with assets: ['ETH-USDC', 'BTC-USDC']
+2026-03-08 14:04:48,521 - INFO - ============================================================
+2026-03-08 14:04:48,521 - INFO - Starting market scan at 2026-03-08 14:04:48.521758
+2026-03-08 14:04:48,521 - INFO - ============================================================
+2026-03-08 14:04:48,521 - ERROR - Failed to check pending signals: 'SignalOutcomeTracker' object has no attribute 'get_pending_signals'
+2026-03-08 14:04:48,522 - INFO - --- Scanning ETH-USDC ---
+2026-03-08 14:04:48,527 - INFO - Fetched 721 data points for ETH-USDC
+2026-03-08 14:04:48,527 - INFO - Fetched 721 data points for ETH-USDC
+2026-03-08 14:04:48,539 - ERROR - Failed to calculate signals for ETH-USDC: name 'apex_signals' is not defined
+2026-03-08 14:04:48,539 - ERROR - Failed to calculate signals for ETH-USDC: name 'apex_signals' is not defined
+2026-03-08 14:04:48,540 - INFO - --- Scanning BTC-USDC ---
+2026-03-08 14:04:48,540 - INFO - --- Scanning BTC-USDC ---
+2026-03-08 14:04:48,543 - INFO - Fetched 721 data points for BTC-USDC
+2026-03-08 14:04:48,543 - INFO - Fetched 721 data points for BTC-USDC
+2026-03-08 14:04:48,552 - ERROR - Failed to calculate signals for BTC-USDC: name 'apex_signals' is not defined
+2026-03-08 14:04:48,552 - ERROR - Failed to calculate signals for BTC-USDC: name 'apex_signals' is not defined
+2026-03-08 14:04:48,553 - INFO - ============================================================
+2026-03-08 14:04:48,553 - INFO - ============================================================
+2026-03-08 14:04:48,553 - INFO - Market scan complete
+2026-03-08 14:04:48,553 - INFO - Market scan complete
+2026-03-08 14:04:48,553 - INFO - ============================================================
+2026-03-08 14:04:48,553 - INFO - ============================================================
