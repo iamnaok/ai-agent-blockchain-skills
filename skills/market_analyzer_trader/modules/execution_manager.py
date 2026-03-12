@@ -17,8 +17,8 @@ from typing import Dict, List, Tuple, Optional
 from datetime import datetime
 import logging
 
-from execution_engine import ExecutionEngine, OrderBook
-from kelly_bankr_adapter import KellyBankrAdapter, SignalPipeline, PositionValidator, ExecutionLogger
+from .execution_engine import ExecutionEngine, OrderBook
+from .kelly_bankr_adapter import KellyBankrAdapter, SignalPipeline, PositionValidator, ExecutionLogger
 
 logger = logging.getLogger('ExecutionManager')
 

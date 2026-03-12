@@ -711,7 +711,6 @@ class APEXSignalEngine:
             np.sign(macd) * min(abs(macd) / 0.1, 1)
         ]
 
-        apex_score = np.mean(apex_signals) if apex_signals else 0
         existing_score = np.mean(existing_signals) if existing_signals else 0
 
         signal.combined_score = 0.7 * apex_score + 0.3 * existing_score
